@@ -382,18 +382,18 @@ output += '<div class="row"><div class="col-sm-3"><img class="img-responsive laz
                 var wS = $(this).scrollTop();
                 
 
-                if (wS > 200 && jQuery('div.voa-masthead-inner a.hideable1').css('opacity') == 0){
+                if (wS > 200 && jQuery('div.masthead-inner a.hideable1').css('opacity') == 0){
                     console.log('fade stuff in');
 
-                    jQuery('div.voa-masthead-inner a.hideable1').fadeTo('slow', 1);
+                    jQuery('div.masthead-inner a.hideable1').fadeTo('slow', 1);
                     if (jQuery(window).width() > 768) {
-                        jQuery('div.voa-masthead-inner a.hideable').fadeTo('slow', 1);
+                        jQuery('div.masthead-inner a.hideable').fadeTo('slow', 1);
                     }
-                } else if (wS < 200 && jQuery('div.voa-masthead-inner a.hideable1').css('opacity') == 1) {
+                } else if (wS < 200 && jQuery('div.masthead-inner a.hideable1').css('opacity') == 1) {
                     console.log('fade stuff out');
-                    jQuery('div.voa-masthead-inner a.hideable1').fadeTo('slow', 0);
+                    jQuery('div.masthead-inner a.hideable1').fadeTo('slow', 0);
                     if (jQuery(window).width() > 768) {
-                        jQuery('div.voa-masthead-inner a.hideable').fadeTo('slow', 0);
+                        jQuery('div.masthead-inner a.hideable').fadeTo('slow', 0);
                     }                    
                 }
             });
