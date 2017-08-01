@@ -1,4 +1,4 @@
-.voa-masthead {
+.masthead {
     background: rgba(255, 255, 255, .4);
     border-bottom: 1px solid #ccc;
     margin: 0;
@@ -15,7 +15,7 @@
     z-index: 10000;
 }
 
-.voa-masthead-inner {
+.masthead-inner {
     margin: 0 auto;
     max-width: 1170px;
     padding: .5em 1em;
@@ -23,7 +23,7 @@
     text-align: left;
 }
 
-.voa-masthead .voa-logo {
+.masthead .logo {
     display: inline-block;
     line-height: 100%;
     margin: 15px 0 0 0;
@@ -31,14 +31,14 @@
     text-align: left;
 }
 
-.voa-masthead .voa-logo a {
+.masthead .logo a {
     color: #222;
 } 
-.voa-masthead .voa-logo a:hover {
+.masthead .logo a:hover {
     color: #444;
     text-decoration: none
 }
-.voa-logo h1 {
+.logo h1 {
     display: inline-block;
     font-size: 1em;
     padding: 0;
@@ -49,32 +49,32 @@
     margin-left: 20px;
 }
 @media only screen and (max-width : 768px) {
-    .voa-logo h1 {
+    .logo h1 {
         font-size: .9em;
         letter-spacing: 0;
         margin-left: 10px;
     }
-    .voa-masthead .voa-logo img { 
+    .masthead .logo img { 
         width:45px;
         height: 19px;
     }
 }
 
-.voa-masthead .voa-logo img { 
+.masthead .logo img { 
 
     display: inline-block; 
     margin-top: -2px;
 
 }
 
-.voa-masthead .share-options {
+.masthead .share-options {
     display: inline-block;
     float: right;
     margin-top: 10px;    
     text-align: right;
 }
 
-.voa-masthead ul, .voa-masthead li {
+.masthead ul, .masthead li {
     line-height: 100%;
     list-style: none;
     margin: 0;
@@ -82,12 +82,12 @@
     text-align: right;
 }
 
-.voa-masthead .scr {
+.masthead .scr {
     display: none;
     visibility: hidden;
 }
 
-.voa-masthead ul li a {
+.masthead ul li a {
     background-repeat: no-repeat;
     background-size: 100% auto;
     display: block;
@@ -160,7 +160,7 @@
     border-bottom: none;
 }
 
-.voa-masthead ul.submenu > li a {
+.masthead ul.submenu > li a {
     display: block;
     font-size: .9em;
     padding: 1em 1.5em;
@@ -276,7 +276,7 @@ video {
 }
 
 
-    .voa-masthead ul li a {
+    .masthead ul li a {
         width: 20px;
     }
 
@@ -340,8 +340,8 @@ div.new-section {
   div.parallax header h2 {
     line-height: 20px
  }
-div.voa-masthead-inner a.hideable1,
-div.voa-masthead-inner a.hideable {
+div.masthead-inner a.hideable1,
+div.masthead-inner a.hideable {
     opacity: 0
  }
 
