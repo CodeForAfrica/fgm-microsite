@@ -402,3 +402,9 @@ output += '<div class="row"><div class="col-sm-3"><img class="img-responsive laz
         //}
 
 });
+$('.maps').click(function () {
+                 $('.maps iframe').css("pointer-events", "auto");
+});
+$(".maps").mouseleave(function () {
+                 $('.maps iframe').css("pointer-events", "none");
+});
