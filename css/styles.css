@@ -660,6 +660,9 @@ div.masthead-inner a.hideable {
     background-repeat: no-repeat;
     margin-bottom: 40px;    
 }
+#wrapper-about {
+    margin-bottom: 0px !important;
+}
 .wrapper h1 {
     color: #eeeadb;
     text-align: center !important;
