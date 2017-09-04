@@ -328,6 +328,17 @@ video {
     display: block;
     padding: 50px 30px 80px 30px;
 }
+.about-countries-wide {
+    display: block;
+    padding: 50px 30px 10px 30px;
+}
+#alter-color {
+    background-color: #f5f3ea;
+}
+.alter-color {
+    background-color: #f5f3ea;
+}
+
 .countries-mobile {
     display: none
 } 
@@ -552,11 +563,11 @@ div.masthead-inner a.hideable {
         }    
         p.lead-video {
             font-family: 'Raleway', sans-serif;
-            color: #333;
+            color: #604043 !important; 
             font-size: 1.1em;
             line-height: 24px;
             margin: 15px 0;
-        }    
+        }           
 
         #news-page p.lead-video {
             font-size: 1em;
@@ -596,7 +607,7 @@ div.masthead-inner a.hideable {
             font-size: .75em;  
             font-style: italic;    
             letter-spacing: .5px;     
-            padding: 3px 6px;
+            padding-right: 6px;
             text-transform: capitalize;
         }
 
@@ -703,8 +714,8 @@ div.masthead-inner a.hideable {
 
 
 .wrapper-region-reports {
-    background-color: rgba(51, 77, 92, .10);
-    padding-bottom: 40px;
+    background-color: #fff;
+    padding-bottom: 0px;
 }
 
 
@@ -915,6 +926,19 @@ h1.featured-video {
 }
 h1.featured-video a{
     color: #604043 !important;
+}
+h1.featured-contributor {
+    line-height: 24px;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 10px 0 10px 0;
+    text-align: left;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 100; 
+    padding-top: 20px;  
+}
+h1.featured-contributor a{
+    color: #604043 !important; 
 }
 
 p.intro {
