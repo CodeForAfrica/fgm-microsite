@@ -17,16 +17,19 @@ function template(item) {
       <a href='${item["Story URL"]}'><img alt='Photo for story' class='img-responsive' src='${item["Image URL"]}'></a>
       <a href='${item["Story URL"]}'>${item.Title}</a>
       <p>${item.Descriptions}.</p>
+      <a href='${item["Story URL"]}' class="button button-circle">Read More</a>
   </div>
   <div id="quote1" class="quote"> 
       <a href='${item["Story URL"]}'><img alt='Photo for story' class='img-responsive' src='${item["Image URL"]}'></a>
       <a href='${item["Story URL"]}'>${item.Title}</a>
       <p>${item.Descriptions}.</p>
+      <a href='${item["Story URL"]}' class="button button-circle">Read More</a>
   </div>
   <div id="quote2" class="quote"> 
       <a href='${item["Story URL"]}'><img alt='Photo for story' class='img-responsive' src='${item["Image URL"]}'></a>
       <a href='${item["Story URL"]}'>${item.Title}</a>
       <p>${item.Descriptions}.</p>
+      <a href='${item["Story URL"]}' class="button button-circle">Read More</a>
   </div>
   `;
 }
@@ -46,21 +49,17 @@ $.getJSON(
 
 function template_1(item) {
   return `
-    <div class="row top-story">
-      <div class="col-sm-5">
-          <img alt="Photo for story" class="img-responsive" src="${item["Image URL"]}">
-      </div>
-      <div class="col-sm-7">
-          <span class="pubdate">${item["Publish Date"]}</span>
-          <span class="pubdate">${item["Media"]}</span>
-          <h1 class="featured-video">
-            <a href="${item["Story URL"]}">${item.Title}</a>
-          </h1>
-          <span class="byline">By ${item["Author Name"]}</span>
-          <p class="lead-video"> ${item.Descriptions}
-              <a href="${item["Story URL"]}">Read more</a>.</p>
-      </div>
-  </div>
+    <div class="col-sm-4 top-story">
+      <h1 class="featured-video">
+        <a href="${item["Story URL"]}">${item.Title}</a>
+      </h1>
+      <span class="pubdate">By ${item["Author Name"]}</span>
+      <span class="pubdate">${item["Publish Date"]}</span>
+      <span class="pubdate">${item["Media"]}</span>
+      <img alt="Photo for story" class="img-responsive" src="${item["Image URL"]}">
+      <p class="lead-video"> ${item.Descriptions}</p> 
+      <a href='${item["Story URL"]}' class="button button-circle">Read More</a>
+    </div>
   `;
 }
 

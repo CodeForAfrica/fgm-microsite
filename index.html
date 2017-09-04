@@ -44,8 +44,8 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700,700italic,400italic|Noto+Serif:400,400italic,700italic,700&subset=latin,latin-ext" />
-
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Hammersmith+One|Raleway:200,200i,400,400i,700,700i&amp;subset=latin-ext" />
+    
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" type="text/css" href="css/nouislider.min.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
@@ -113,22 +113,24 @@ var utag_data = {
 
     <script>
         // quickfix to provide parallax image to js/scripts.js as global var
-        var px_title_image = "https://cdn-images-1.medium.com/max/1600/1*irbG3KRLipscOza55e9JvQ.jpeg";
+        var px_title_image = "img/LandingPageBanner.jpg";
     </script>
 
     <nav class="masthead">
         <div class="masthead-inner">
             <div class="logo">
                 <a href="https://www.codeforafrica.org/" title="Return to Code For Africa homepage">
-                    <img alt="CFA" src="img/logo.png" width="60" height="25">
+                    <img alt="CFA" src="img/logo_1.png" width="125" height="50">
                 </a>
-                <a href="index.html" title="Return to Code For Africa homepage" class="hideable1">
-                    <h1>Born Perfect</h1>
+	            <a href="index.html" title="Return to Code For Africa homepage" class="hideable1">
+                    <h1></h1>
                 </a>
-                <a class="main-nav hideable" href="#">News Updates</a>
-                <a class="main-nav hideable" href="#">Affected Countries</a>
-                <a class="main-nav hideable" href="#">Data &amp; Graphics</a>
-                <a class="main-nav hideable" href="#">Meet The Team</a>
+                <a class="main-nav" href="#">Stories Of FGM In Nigeria</a>
+                <a class="main-nav" href="#">Share Your Story</a>
+                <a class="main-nav" href="#">Data &amp; Maps</a>
+                <a class="main-nav" href="#">International Stories</a>
+                <a class="main-nav" href="#">About Us</a>
+                <a class="main-nav" href="#">Get In Touch</a>
             </div>
             <div class="share-options">
             <ul>
@@ -140,25 +142,17 @@ var utag_data = {
     </nav>
 
     <div id="parallax-window-1" class="parallax">
-
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-
                     <header>
-                        <h1>Born Perfect</h1>
-                        <h2>The fight against female genital mutilation</h2>
-                        <h5></h5>
+                        
                     </header>
-
                 </div>
             </div>
         </div>
-
     </div>
-
-
-
+    
     <div class='site-nav'>
         <div class='container'>
             <div class = 'row'>
@@ -179,19 +173,19 @@ var utag_data = {
         </div>
     </div>
 
-        <div class='container'>
-            <div class='row'>
-                <div class='col-sm-4'>
-                    <header id='news-ticker'>
-                        <h5>The Latest Headlines</h5>
-                        <div id='quote-container'>
-                            <div id='latest'>                                                              
-                                    <!--LOADING LATEST POSTS-->                                  
-                            </div>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm-4'>
+                <header id='news-ticker'>
+                    <h5>The Latest Headlines</h5>
+                    <div id='quote-container'>
+                        <div id='latest'>                                                       
+                            <!--LOADING LATEST POSTS-->                                  
                         </div>
-                    </header>
-                </div>
-                <div class="col-sm-8">
+                    </div>
+                </header>
+            </div>
+            <div class="col-sm-8">
                     <h2 class='explainer-headline'> All you need to know about FGM </h2>
                     <div class="video-container">
                         <iframe width="595" height="350"src="https://www.youtube.com/embed/HN1mulqwv5g" frameborder="0" allowfullscreen></iframe>
@@ -203,58 +197,68 @@ var utag_data = {
         <div class='wrapper'>
             <div class='container'>
                 <div class='row'>
-                    <div class='col-md-12 col-lg-10 col-lg-offset-1'>
-                        <h1>Across a vast swath of Africa, millions face starvation. Drought, conflict and disease have led to the continent&rsquo;s worst humanitarian crisis in decades.</h1>
-                        <p class="lead">In South Sudan, 1.6 million people have fled to nearby countries to escape war and find food. In Somalia, thousands of families have moved from their villages to camps for the displaced. In Nigeria, 450,000 children face acute malnutrition after years of attacks by the terror group Boko Haram. Here, VOA provides ongoing coverage of the disaster, its causes and the humanitarian response.</p>
+                <div class='col-sm-3'>
+                        
+                    </div>
+                    <div class='col-sm-3'>
+                        <a href="#"><h1>Report FGM Agent</h1></a>
+                    </div>
+                    <div class='col-sm-3'>
+                       <a href="#"><h1>Share Your Story</h1></a>
+                    </div>
+                    <div class='col-sm-3'>
+                       
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id='news' class='container'>
-            <!--LOADING FEATURED SHEET-->
+        <div class="container">
+            <div class="col-sm-12">
+                <header id="news-articker">
+                    <h5>News Articles</h5>
+                </header>
+            </div>
+            <div id="news" class="row">
+                <!--LOADING FEATURED SHEET-->
+            </div>
         </div>
         
         <!--LOADING MAP-->
         <div id='mapping-the-threat' class='wrapper-map'>
-            <div class='container'>
-                <div class="row">
-                    <div class='col-sm-12'>
-                        <h3>Mapping the Threat</h3>
-                    </div>
-                    <div class="col-sm-5"> 
-                        <p class="lead">FGM &mdash; the Female Genital Mutilation Network &mdash; tracks these dangerous acts around the world. The project helps define how much occurs in various regions by placing them on a five-point scale that ranges from very low to very high.</p>
-                        <ol id="ipc-phases">
-                            <li id="phase1"><strong>Very Low.</strong> Up to 2.8 percent of women have undergone any form of FGM.</li>
-                            <li id="phase2"><strong>Low.</strong> Between 2.9 and 11 percent of women have undergone any form of FGM.</li>
-                            <li id="phase3"><strong>Medium.</strong> Between 11.2 and 31.9 percent of women have undergone any form of FGM. The three most prevalent states in this category are Abia, Kaduna and Anambra.</li>
-                            <li id="phase4"><strong>High.</strong> Between 32.2 and 45 percent of women have undergone any form of FGM. The three most prevalent states in this category are Ondo, Edo and Kano.</li>
-                            <li id="phase5"><strong>Very High.</strong> Up to 76.6 percent of women have undergone any form of FGM. The states with the highest prevalence are Osun, Ebonyi and Ekiti.</li>
-                        </ol>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class='embed-container maps'>
-                    `       <iframe width="100%" height="620" frameborder="0" src="https://codeforafrica.carto.com/viz/b55d2b17-1b60-49be-9e14-36e73296e70f/embed_map?zoom=6&center_lat=9.180277&center_lon=7.671802" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-                        </div>
+            <div class="row">
+                <div class="col-sm-5" id='paint'> 
+                    <p class="leadmaphead">Mapping FGM in Nigeria</p>
+                    <p class="leadmap">FGM &mdash; the Female Genital Mutilation Network &mdash; tracks these dangerous acts around the world. The project helps define how much occurs in various regions by placing them on a five-point scale that ranges from very low to very high.</p>
+                    <ol id="ipc-phases">
+                        <li id="phase1"><strong>Very Low.</strong> Up to 2.8 percent of women have undergone any form of FGM.</li>
+                        <li id="phase2"><strong>Low.</strong> Between 2.9 and 11 percent of women have undergone any form of FGM.</li>
+                        <li id="phase3"><strong>Medium.</strong> Between 11.2 and 31.9 percent of women have undergone any form of FGM. The three most prevalent states in this category are Abia, Kaduna and Anambra.</li>
+                        <li id="phase4"><strong>High.</strong> Between 32.2 and 45 percent of women have undergone any form of FGM. The three most prevalent states in this category are Ondo, Edo and Kano.</li>
+                        <li id="phase5"><strong>Very High.</strong> Up to 76.6 percent of women have undergone any form of FGM. The states with the highest prevalence are Osun, Ebonyi and Ekiti.</li>
+                    </ol>
+                </div>
+                <div class="col-sm-7" id='mapboard'>
+                    <div class='embed-container maps'>
+                    `       <iframe width="100%" height="500" frameborder="0" src="https://codeforafrica.carto.com/viz/b55d2b17-1b60-49be-9e14-36e73296e70f/embed_map?zoom=6&center_lat=9.180277&center_lon=7.671802" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </div>
         <!--END MAP-->
 
-
         <div class='container'>
             <div class='row'>
                 <div class='col-sm-6'>
-                    <div  class = 'mini-section'>
-                        <h3>Root Causes</h3>
-                        <p class='note'> Explore the root causes and contributing factors behind Africa&rsquo;s deadliest food shortages in years. </p>
+                    <div class="socialborder">
+                        <div  class='mini-section'>
+                            <h3>#stop FGM</h3>
+                            <p class='note'> Track emergency interventions and long term remedies designed to save lives. </p>
+                        </div>
+                            <!-- SnapWidget -->
+                            <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                            <iframe src="https://snapwidget.com/embed/431371" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
                     </div>
-                        <ol class='stories'>
-                            <div id="rootcauses">
-                                <!--LOADING ROOT CAUSES SHEET-->
-                            </div>
-                        </ol>
                 </div>
 
                 <!--LOADING TWITTER FEED-->
@@ -270,59 +274,114 @@ var utag_data = {
             </div>
         </div>
 
+        <!--LOADING MAP-->
+        <div id='mapping-the-threat' class='wrapper-map'>
+            <div class="row">
+                <div class="col-sm-5" id='paint-one'> 
+                    <p class="leadmaphead">Mapping FGM in Nigeria</p>
+                    <p class="leadmap">FGM &mdash; the Female Genital Mutilation Network &mdash; tracks these dangerous acts around the world. The project helps define how much occurs in various regions by placing them on a five-point scale that ranges from very low to very high.</p>
+                    <ol id="ipc-phases">
+                        <li id="phase1"><strong>Very Low.</strong> Up to 2.8 percent of women have undergone any form of FGM.</li>
+                        <li id="phase2"><strong>Low.</strong> Between 2.9 and 11 percent of women have undergone any form of FGM.</li>
+                        <li id="phase3"><strong>Medium.</strong> Between 11.2 and 31.9 percent of women have undergone any form of FGM. The three most prevalent states in this category are Abia, Kaduna and Anambra.</li>
+                        <li id="phase4"><strong>High.</strong> Between 32.2 and 45 percent of women have undergone any form of FGM. The three most prevalent states in this category are Ondo, Edo and Kano.</li>
+                        <li id="phase5"><strong>Very High.</strong> Up to 76.6 percent of women have undergone any form of FGM. The states with the highest prevalence are Osun, Ebonyi and Ekiti.</li>
+                    </ol>
+                </div>
+                <div class="col-sm-7" id='mapboard'>
+                    <div class='embed-container maps'>
+                    `   <iframe width="100%" height="500" frameborder="0" src="https://codeforafrica.carto.com/viz/b55d2b17-1b60-49be-9e14-36e73296e70f/embed_map?zoom=6&center_lat=9.180277&center_lon=7.671802" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END MAP-->
+
         <div class='wrapper-region-reports'>
             <div class='container'>
                 <div class="row">
-<div class="col-sm-12">
-<h3>Country Reports</h3>
-<p class="lead-video">In three countries &mdash; Nigeria, South Sudan and Somalia  &mdash; food insecurity has reached emergency levels, and famine has been declared in part of South Sudan. Each of these countries has experienced years of devastating conflict, and ongoing violence and instability continue to limit access to humanitarian aid.</p>
-</div>
-</div>
-<div class="row">
-<div class="col-sm-4">
-<h2>Nigeria</h2>
-<p>Northeastern Nigeria faces acute food shortages due in large part to years of attacks by Boko Haram. The terror group has displaced millions, including farmers who have missed multiple planting and harvesting seasons. The U.N. estimates that 450,000 children face acute malnutrition in the conflict area.</p>
-<div class="countries-mobile">
-<img class="img-responsive country" src="img/nigeria.gif"></div>
-</div>
-<div class="col-sm-4">
-<h2>Somalia</h2>
-<p>Somalia is rebuilding its civil and military institutions after 20 years of conflict. Challenges abound as the extremist group al-Shabab continues to control some regions and conducts regular attacks designed to cause many deaths. Conflict has left the country unprepared for an extended drought, and now more than half its population &mdash; 6.2 million people &mdash; face food insecurity, according to the U.N.</p>
-<div class="countries-mobile">
-<img class="img-responsive country" src="img/somalia.gif"></div>
-</div>
-<div class="col-sm-4">
-<h2>South Sudan</h2>
-<p>In Africa&rsquo;s youngest country, a civil war has displaced millions of people, and warring parties have prevented humanitarian organizations from reaching people who need food. The U.N. reports that 270,000 children are severely malnourished, and over 5 million people are food insecure.</p>
-<div class="countries-mobile">
-<img class="img-responsive country" src="img/south-sudan.gif"></div>
-</div>
-</div>
-<div class="row countries-wide">
-<div class="col-sm-4">
-<img class="img-responsive country" src="img/nigeria.gif"></div>
-<div class="col-sm-4">
-<img class="img-responsive country" src="img/somalia.gif"></div>
-<div class="col-sm-4">
-<img class="img-responsive country" src="img/south-sudan.gif"></div>
-</div>
+                    <div id='news-articker' class="col-sm-12">
+                        <h5>International Stories</h5>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="countries-wide">
+                            <img class="img-responsive country" src="img/WestAfricaMap.png">
+                            <a href='#' class="button button-circlex">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="countries-wide">
+                            <img class="img-responsive country" src="img/CentralAfricaMap.png">
+                            <a href='#' class="button button-circlex">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="countries-wide">
+                            <img class="img-responsive country" src="img/EgyptMap.png">
+                            <a href='#' class="button button-circlex">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="countries-wide">
+                            <img class="img-responsive country" src="img/KenyaMap.png">
+                            <a href='#' class="button button-circlex">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row countries-mobile">
+                    <div class="col-sm-3">
+                        <img class="img-responsive country" src="img/nigeria.gif"></div>
+                    <div class="col-sm-3">
+                        <img class="img-responsive country" src="img/somalia.gif"></div>
+                    <div class="col-sm-3">
+                        <img class="img-responsive country" src="img/south-sudan.gif"></div>
+                    <div class="col-sm-3">
+                        <img class="img-responsive country" src="img/south-sudan.gif"></div>    
+                </div>
             </div>
         </div>
 
         <div class='wrapper-footer'>
             <div class='container'>
-                <div class='row'>
-                    <div class='col-sm-7'>
-                        <h3>About the project</h3>
-                        <p>Through the &ldquo;Hunger Across Africa&rdquo; project, the Voice of America provides ongoing coverage of all angles of Africa&rsquo;s worst humanitarian crisis in decades. Across the continent, reporters on-the-ground provide vital multimedia coverage of the human and economic effects of widespread drought and malnutrition. Our in-depth reporting will address the impact on people, livestock and crops; food assistance efforts; food prices; internally displaced people and migration; war and conflict; dams and infrastructure; and long-term solutions.</p>
+                <div class='row' id="footer-red-style">
+                    <div class='col-sm-7' >
+                        <h3><strong>Get in Touch</strong></h3>
+                        <p>Please follow our social media channels or send us an email to <strong>mail@bornperfect.africa</strong>. You can also share your story using our forms</p>
                     </div>
-                    <div class='col-sm-5'>
-                        <h3>Project Credits</h3>
-                        <p>This project was created by a team of journalists, developers and designers at The Voice of America. Learn more <a href="#">about us</a>.</p>
+                    <div class='col-sm-2 offset-sm-1'>
+                        <a href="#"><h1>Report FGM Agent</h1></a>
+                    </div>
+                    <div class='col-sm-2'>
+                        <a href="#"><h1>Share Your Story</h1></a>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="wrapper-low-footer">
+            <div class="container">
+                <div class='row'>
+                    <div id="low-footer-pad" class='col-sm-4'>
+                        <h3>About the project</h3>
+                        <p>Through the “Hunger Across Africa” project, the Voice of America provides ongoing coverage of all angles of Africa’s worst humanitarian crisis in decades. Read more on the <strong>About Us</strong> page.</p>
+                    </div>
+                    <div id="low-footer-pad" class='col-sm-4'>
+                        <h3>Credits</h3>
+                        <p>This project was created by a team of journalists, developers and designers at <strong>The Voice of America</strong>.</p>
+                        <p>All images courtesy of The Guardian.</p>
+                    </div>
+                    <div id="low-footer-pad" class='col-sm-4'>
+                        <h3>Social Links</h3>
+                        <a title="Follow us on Twitter" href="#" class="footer-tw"></a>
+                        <a title="Like us on Facebook" href="#" class="footer-fb"></a>
+                        <a title="Send us an Email" href="#" class="footer-mail"></a>
+                        <a title="Visit us" href="#" class="footer-cfa"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script src="js/parallax.js"></script>
         <script src="js/wNumb.js"></script>

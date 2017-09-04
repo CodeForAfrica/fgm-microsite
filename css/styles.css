@@ -1,11 +1,14 @@
 .masthead {
-    background: rgba(255, 255, 255, .4);
+    background: rgba(155, 41, 74, 1);
     border-bottom: 1px solid #ccc;
     margin: 0;
 
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+
     margin-bottom: 20px;
     position: fixed;
-    background-color: #fff;
+    background-color: #9b294a;
 
     box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.1);
 
@@ -19,6 +22,7 @@
     margin: 0 auto;
     max-width: 1170px;
     padding: .5em 1em;
+    padding-bottom: 14px;
     width: 100%;
     text-align: left;
 }
@@ -32,11 +36,14 @@
 }
 
 .masthead .logo a {
-    color: #222;
+    color: #eeeadb;
+    text-transform: none;
 } 
 .masthead .logo a:hover {
-    color: #444;
-    text-decoration: none
+    color: #eeeadb;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
 }
 .logo h1 {
     display: inline-block;
@@ -48,6 +55,7 @@
     margin-bottom: 14px;
     margin-left: 20px;
 }
+
 @media only screen and (max-width : 768px) {
     .logo h1 {
         font-size: .9em;
@@ -55,15 +63,15 @@
         margin-left: 10px;
     }
     .masthead .logo img { 
-        width:45px;
-        height: 19px;
+        width:125px;
+        height: 50px;
     }
 }
 
 .masthead .logo img { 
 
     display: inline-block; 
-    margin-top: -2px;
+    margin-top: -10px;
 
 }
 
@@ -93,12 +101,48 @@
     display: block;
     height: 25px;
     line-height: 100%;
-    margin: .15em 0 0 .5em;
+    margin: .6em 0 0 .5em;
     overflow: auto;
     padding: 0 .5em;
-    width: 25px;
+    width: 75px;
 }
 
+.button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    margin: 5px;
+    padding: 6px 22px;
+    font-size: 15px !important;
+    height: 40px;
+    line-height: 40px;
+    background-color: #0f6225;
+    color: #ffffff !important;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: none;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-decoration: none !important;
+}
+
+.button.button-circle {
+    border-radius: 20px;
+}
+a.button.button-circle {
+    color: #fff;
+}
+.button.button-circlex {
+    border-radius: 20px;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+a.button.button-circlex {
+    color: #fff;
+    line-height: 25px !important;
+}
 
 .unknown {
     font-size: .9em;
@@ -136,7 +180,7 @@
     cursor: pointer
 }
 .site-nav a {
-    color: #222;
+    color: #eeeadb;
     font-size: .9em;
     font-weight: normal;
     line-height: 30px;
@@ -187,11 +231,10 @@
 
 
 .mini-section {
-    background-color: #eee;
-    margin: 0 0 20px 0;
+    margin: 20px 0 20px 0;
 }
 .mini-section p {
-    padding: 5px 20px 20px 15px;
+    padding: 0 20px 20px 5px;
 
 }
 
@@ -213,12 +256,34 @@ video {
 .top-story, .more-top {
     margin-bottom: 40px;
 }
-
+.top-story a.button{
+    font-family: 'Hammersmith One', sans-serif; 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    margin: 5px;
+    padding: 0 22px;
+    font-size: 15px !important;
+    height: 40px;
+    line-height: 40px;
+    background-color: #0f6225;
+    color: #ffffff !important;
+    font-weight: 200 !important;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: none;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-decoration: none !important;
+    border-radius: 50px;
+}
 
 #quote-container img,
 .top-story img,
 .more-top img {
     filter: grayscale(50%);
+    margin-top: 15px;
     margin-bottom: 20px;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
     transition: all 1s;
@@ -260,7 +325,8 @@ video {
 
 
 .countries-wide {
-    display: block
+    display: block;
+    padding: 50px 30px 80px 30px;
 }
 .countries-mobile {
     display: none
@@ -352,14 +418,14 @@ div.masthead-inner a.hideable {
 
         h1 {
             color: #222;
-            font-family: 'noto sans';
+            font-family: 'Hammersmith One', sans-serif;
             font-size: 4em;
             font-weight: bold;
             margin: 20px 0 0 0;
         }
         h2 {
             color: #555;
-            font-family: 'noto sans';
+            font-family: 'Hammersmith One', sans-serif;
             text-transform: uppercase;
             font-size: 1.2em;
             font-weight: bold;
@@ -372,11 +438,10 @@ div.masthead-inner a.hideable {
         }
 
         h3 {
-            background-color: #45b29d;
             border-radius: 2px;
             color: #fff;
             display: inline-block;
-            font-family: 'Noto Sans';
+            font-family: 'Hammersmith One', sans-serif;
             font-size:1.1em;
             padding: 4px 6px;
             text-transform: uppercase;
@@ -385,6 +450,10 @@ div.masthead-inner a.hideable {
         }
 
         .mini-section h3 {
+            text-transform: none !important;
+            font-weight: 200;
+            color: #604043; 
+            font-size: 1.7em;
             border-radius: 0px;
             border-bottom-right-radius: 2px;
         }
@@ -445,7 +514,7 @@ div.masthead-inner a.hideable {
 
 
         h4,h5,h6 {
-            font-family: 'Noto Sans';
+            font-family: 'Raleway', sans-serif;
             font-size:1.5em;
             text-transform: uppercase;
             margin: 0 0 10px 0;
@@ -470,19 +539,19 @@ div.masthead-inner a.hideable {
         }
 
         p {
-            font-family: 'noto sans';
+            font-family: 'Raleway', sans-serif;
 
         }
         p.lead {
             color:#222;
-            font-family: 'noto sans';
+            font-family: 'Raleway', sans-serif;
             font-size: 1.3em;          
             line-height: 34px;
             margin: 40px 0;
             text-align: center;
         }    
         p.lead-video {
-            font-family: 'noto sans';
+            font-family: 'Raleway', sans-serif;
             color: #333;
             font-size: 1.1em;
             line-height: 24px;
@@ -514,32 +583,32 @@ div.masthead-inner a.hideable {
         }
         ol.stories a {
             display: block;
-            font-family: 'noto sans';
+            font-family: 'Raleway', sans-serif;
             font-size: 1em;
             margin: 5px 0;
         }
 
         span.pubdate,
         span.video {
-            background-color: #DDD;
-            color: #333;
+            color: #604043;
             display: inline-block;
-            font-family: 'Noto Sans';
-            font-size: .75em;      
+            font-family: 'Raleway', sans-serif;
+            font-size: .75em;  
+            font-style: italic;    
             letter-spacing: .5px;     
             padding: 3px 6px;
-            text-transform: uppercase;
+            text-transform: capitalize;
         }
 
         span.byline {
             color: #777;
             display: block;
-             font-family: 'Noto Sans';
+            font-family: 'Raleway', sans-serif;
             font-size: .9em;           
         }        
 
         nav {
-            font-family: 'Noto Sans';
+            font-family: 'Raleway', sans-serif;
             font-size: 1em;
             font-weight: 600;
             margin-top:25px;
@@ -573,14 +642,13 @@ div.masthead-inner a.hideable {
         }
 
         p.note {
-            font-size: 1em;
-            font-style: italic;
-            color: #333;
+            font-size: .9em;
+            color: #604043;
             margin-bottom: 20px;
         }
 
         .main-header {
-            backgroun 100% 100%d: url('images/top.jpg') 100% 100%;
+            backgroun 100% 100%d: url('../img/LandingPageBanner.jpg') 100% 100%;
         }
 
 
@@ -588,25 +656,37 @@ div.masthead-inner a.hideable {
 
 
 .wrapper {
-    background-color: #333;
+    background-color: #9b294a;
     background-repeat: no-repeat;
-    background: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.45)),url('../img/msg_banner.jpg') no-repeat;
     margin-bottom: 40px;    
 }
 .wrapper h1 {
-    color: #fff;
-    text-align: left;
-    font-size: 2em;
+    color: #eeeadb;
+    text-align: center !important;
+    font-size: 1.8em;
     line-height: 40px;
-    margin-bottom: -20px;
-    font-weight: bold;
-    margin-top: 60px;
-    font-family: 'noto sans';
-    text-align: left;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    font-weight: 200;
+    margin-top: 40px;
+    font-family: 'Hammersmith One', sans-serif;
+    
+}
+.wrapper a h1 {
+    margin: 28px 0;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    border-color: #eeeadb !important;
+}
+.wrapper a:hover {
+    border-color: #eeeadb !important;
+    border-radius: 50px !important;
+    text-decoration: none !important;
 }
 .wrapper p.lead {
     color: #fff;
-    font-family: 'noto sans';
+    font-family: 'Raleway', sans-serif;
     line-height: 34px;
     margin: 40px 0;
     margin-bottom: 60px;    
@@ -626,31 +706,71 @@ div.masthead-inner a.hideable {
 
 
 .wrapper-map li {
-    font-family: 'noto sans';
+    font-family: 'Raleway', sans-serif;
     font-size: 1em;
     list-style-type: none;
     margin-left: -40px;
     margin-bottom: 10px;
 }
 
+#paint {
+    padding: 20px 20px 40px 100px;
+    background-color: #0f6225;
+    color: white;
+}
+
+#paint-one {
+    padding: 20px 20px 40px 100px;
+    background-color: #9b294a;
+    color: white;
+}
+
+#mapboard {
+    padding: 50px 100px 50px 20px;
+    background-color: #ede8da;
+}
+
+.wrapper-map p.leadmap {
+    font-weight: 200;
+    margin: 40px 0;
+    color: white;
+}
+
+.wrapper-map p.leadmaphead {
+    font-family: 'Hammersmith One', sans-serif;
+    margin: 40px 0;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
+.socialborder {
+    padding: 10px 10px 30px 10px;
+}
+
 #phase1 {
-    border-left: 20px solid #ffffb2;
+    font-weight: 200;
+    border-left: 20px solid #e5dcba;
     padding-left: 20px;
 }
 #phase2 {
-    border-left: 20px solid #fecc5c;
+    font-weight: 200;
+    border-left: 20px solid #cca350;
     padding-left: 20px;
 }
 #phase3 {
-    border-left: 20px solid #fd8d3c;
+    font-weight: 200;
+    border-left: 20px solid #c75274;
     padding-left: 20px;
 }
 #phase4 {
-    border-left: 20px solid #f03b20;
+    font-weight: 200;
+    border-left: 20px solid #9b294a;
     padding-left: 20px;
 }
 #phase5 {
-    border-left: 20px solid #bd0026;
+    font-weight: 200;
+    border-left: 20px solid #460f2d;
     padding-left: 20px;
 }
 
@@ -670,34 +790,97 @@ div.masthead-inner a.hideable {
 }
 
 .wrapper-footer {
-    background-color: #333;
-    padding-bottom: 40px;
+    background-color: #9b294a;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.wrapper-footer a h1 {
+    font-weight: 100;
+    font-size: 12px;
+    color: #eeeadb; 
+    line-height: 20px;
+    margin: 48px 0;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    border-color: #eeeadb !important;
 }
 .wrapper-footer p {
-        color: #fff;
-        font-family: 'Noto Sans';
+        color: #604043;
+        font-family: 'Raleway', sans-serif;
+        font-size: 11px;
+        font-weight: 200 !important;
 
 }
 .wrapper-footer h3 {
-    background-color: #333;
-    color: #fff;
-    font-weight: bold;
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: transparent;
+    color: #604043;
+    text-transform: none !important;
+    font-weight: 200;
+    font-size: 1.4em;
     margin-top: 30px;
     padding: 0;
-    border-bottom: 4px solid #df5a49;
     padding-bottom: 5px;
     margin-bottom: 15px;    
 }
 .wrapper-footer h6 {
-    color: #fff;
+    color: #604043;
     font-size: .8em;
     margin: 5px 0 0 0;
     text-transform: uppercase;
 }
 .wrapper-footer a {
-    color: #fff;
+    color: #604043;
     text-decoration: underline;
 }
+.wrapper-footer h3{
+    color: #eeeadb !important;
+}
+.wrapper-footer p{
+    color: #eeeadb !important;
+}
+
+.wrapper-low-footer {
+    background-color: #333;
+    background-repeat: no-repeat;
+    background: url(../img/Footer.jpg) no-repeat;
+    padding-top: 40px;
+    padding-bottom: 140px;
+    color: #604043 !important;
+}
+.wrapper-low-footer h3 {
+    text-transform: none !important;
+    color: #604043 !important;
+}
+.wrapper-low-footer p {
+    font-size: 10px;
+    color: #604043 !important;
+}
+#low-footer-pad {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#footer-red-style {
+    background-color: #9b294a;
+}
+#footer-bgimg {
+    background-image: url('../img/Footer.jpg') no-repeat;
+}
+.footer-tw {
+    background-image: url(img/footer-tw.png);
+}
+.footer-fb {
+    background-image: url(img/footer-fb.png);
+}
+.footer-email {
+    background-image: url(img/footer-mail.png);
+}
+.footer-cfa {
+    background-image: url(img/footer-cfa.png);
+}
+
 .marquee {
     margin-bottom: 20px;
 }
@@ -724,18 +907,19 @@ h1.featured-video {
     font-weight: normal;
     margin: 10px 0 10px 0;
     text-align: left;
-    color: #222;
-    font-family: 'noto sans';
+    font-family: 'Hammersmith One', sans-serif;
     font-weight: bold;
 }
-
+h1.featured-video a{
+    color: #604043 !important;
+}
 
 p.intro {
-            color:#222;
-            font-family: 'noto sans';
-            font-size: 1.1em;          
-            line-height: 24px;
-            margin: 15px 0 20px 0;
+    color:#222;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;          
+    line-height: 24px;
+    margin: 15px 0 20px 0;
 }
 
 #slider {
@@ -803,7 +987,7 @@ div.quote-content {
   display: none;
   /*float: left;*/
   text-align: left;
-  font-family: 'Noto Sans';
+  font-family: 'Hammersmith One', sans-serif;
   font-size: 1.1em;
   /*width: 50%;*/
 }
@@ -828,13 +1012,15 @@ div.quote-content {
   margin: 0 auto;
 }
 #quote-container p {
-    font-family: 'noto sans';
+    font-family: 'Raleway', sans-serif;
+    color: #604043;
     font-size: .9em;  
     margin-top: 10px;
     margin-bottom: 30px;
     line-height: 22px;  
 }
 #quote-container a {
+    color: #604043;
     font-weight: bold;
     font-size: 1.6em;
     line-height: 28px;    
@@ -845,28 +1031,49 @@ div.quote-content {
 
 
 #news-ticker h5 {
-    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
     text-align: left;
     margin-bottom: 15px;
     margin-top: 30px;
-    color: #fff;
-    background-color: #45b29d;
+    color: #604043;
     display: inline-block;
     padding: 5px;
 
 }
+#news-articker h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    color: #604043 !important;
+    display: inline-block;
+    padding-bottom: 30px;
 
+}
+#news .featured-video h1{
+    color: #604043 !important;
+}
 
 a.main-nav {
     color: #444;
     font-size: .9em;
     font-weight: normal;
-    padding-left: 15px;
+    margin: 28px 0;
+    padding: 10px;
     letter-spacing: .5px;
+    border-radius: 50px;
+    border: 1px solid transparent;
 }
-a.main-nav:hover {
-    color: #999;
-    text-decoration: none;
+a.main-nav:hover,
+a.main-nav:focus,
+a.main-nav.current {
+    color: #eeeadb;
+    border-color: #eeeadb;
+    text-decoration: none !important;
 }
 
 div.noUi-handle {
@@ -874,8 +1081,10 @@ div.noUi-handle {
 }
 
 h2.explainer-headline {
-    color: #fff;
-    background-color: #45b29d;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #604043;
     display: inline-block;
     font-size: 1em;
     margin-top: 30px;
@@ -884,7 +1093,7 @@ h2.explainer-headline {
 
 #mapping-the-threat p.lead {
     color: #222;
-    font-family: 'noto sans';
+    font-family: 'Raleway', sans-serif;
     font-size: 1.1em;
     line-height: 24px;
     margin: 20px 0 30px 0;
@@ -1047,7 +1256,7 @@ td.country-col {
     padding: 0 10px !important;
 }
 th.rotate > div > span {
-    font-family: 'Noto Sans';
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     font-size: .9em;
     padding: 5px 10px;
@@ -1065,7 +1274,7 @@ th.rotate > div > span {
     background-color: #bbb;
     border-bottom: 4px solid #444;
     color: #111;
-    font-family: 'Noto Sans';
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: .9em;
     text-transform: uppercase;
@@ -1079,7 +1288,7 @@ th.rotate > div > span {
 
 .wrapper-map {
     background-color: rgba(51, 77, 92, .10);
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .wrapper-infographic h2,
@@ -1266,12 +1475,12 @@ th.rotate > div > span {
         }
 
         #ipc-comparison .infographic h1 {
-            font-family: 'Noto Serif';
+            font-family: 'Raleway', sans-serif;
             margin-bottom: 10px;
             margin-top: 0;
         }
         #ipc-comparison .infographic h2 {
-            font-family: 'Noto Sans';
+            font-family: 'Raleway', sans-serif;
             font-size: 1em;
             font-weight: normal;
             letter-spacing: 2px;
@@ -1281,7 +1490,7 @@ th.rotate > div > span {
         #ipc-comparison .infographic h3 {
             background-color: #fff;
             color: #222;
-            font-family: 'Noto Serif';
+            font-family: 'Raleway', sans-serif;
             font-size: 1.2em;
             font-weight: bold;
             line-height: 25px;
@@ -1329,7 +1538,7 @@ th.rotate > div > span {
         #ipc-comparison .infographic .left-label h6 {
             border-bottom: 1px solid #333;
             padding-bottom: 5px;
-            font-family: 'noto sans';
+            font-family: 'Raleway', sans-serif;
             font-size: .9em;
             font-weight: bold;
             text-align: center;         
@@ -1337,7 +1546,7 @@ th.rotate > div > span {
         #ipc-comparison .infographic .right-label h6 {
             border-bottom: 1px solid #333;
             padding-bottom: 5px;
-            font-family: 'noto sans';
+            font-family: 'Raleway', sans-serif;
             font-size: .9em;
             font-weight: bold;
             text-align: center;         
