@@ -1,6 +1,6 @@
 //Loading Latest Stories
 $.getJSON(
-  "https://spreadsheet.glitch.me/?key=1IMMk-7b-L7joK9GnoR_dB3616X8sr8_Ckz9qvD5v9DI",
+  "https://spreadsheet.glitch.me/?key=1QrV3AKLkdjdLZjmJ-fkNz-mgrXDwfe3vT980FCYUafk",
   data => {
     console.log(data)
     let containerhtml = "";
@@ -13,19 +13,7 @@ $.getJSON(
 
 function template(item) {
   return `
-  <div id="quote0" class="quote"> 
-      <a href='${item["Story URL"]}'><img alt='Photo for story' class='img-responsive' src='${item["Image URL"]}'></a>
-      <a href='${item["Story URL"]}'>${item.Title}</a>
-      <p>${item.Descriptions}.</p>
-      <a href='${item["Story URL"]}' class="button button-circle">Read More</a>
-  </div>
-  <div id="quote1" class="quote"> 
-      <a href='${item["Story URL"]}'><img alt='Photo for story' class='img-responsive' src='${item["Image URL"]}'></a>
-      <a href='${item["Story URL"]}'>${item.Title}</a>
-      <p>${item.Descriptions}.</p>
-      <a href='${item["Story URL"]}' class="button button-circle">Read More</a>
-  </div>
-  <div id="quote2" class="quote"> 
+  <div class="quote"> 
       <a href='${item["Story URL"]}'><img alt='Photo for story' class='img-responsive' src='${item["Image URL"]}'></a>
       <a href='${item["Story URL"]}'>${item.Title}</a>
       <p>${item.Descriptions}.</p>
