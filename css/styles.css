@@ -1747,11 +1747,12 @@ th.rotate>div>span {
   }
   div.parallax header h1 {
     font-size: 3em;
+    margin-left: -20px;
   }
   div.parallax header h2 {
     font-size: 1em;
-    padding-left: 60px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 70px;
   }
   h1.featured-partners {
     padding-top: 0px;
