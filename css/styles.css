@@ -368,9 +368,6 @@ video {
   .site-nav a {
     display: none;
   }
-  .masthead ul li a {
-    width: 20px;
-  }
   ol.left-list {
     margin-bottom: 0;
   }
@@ -761,7 +758,7 @@ p.note {
 }
 
 #mapboard {
-  padding: 80px 30px 80px 30px;
+  padding: 0px 0px 0px 0px;
   background-color: #ede8da;
 }
 
@@ -1595,6 +1592,11 @@ th.rotate>div>span {
     padding-left: 45px;
   }
 }
+@media only screen and (min-width: 1024px) {
+  #mapboard iframe {
+    height: 690px;
+  }
+}
 @media only screen and (min-width: 776px) and (max-width: 990px) {
   a.main-nav {
     display: none;
@@ -1740,7 +1742,7 @@ th.rotate>div>span {
     font-size: 16px;
   }
   #mapboard {
-    padding: 50px 10px 50px 25px;
+    padding: 0px 0px 0px 15px;
   }
   .hider {
     display: none;
