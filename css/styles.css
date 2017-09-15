@@ -1676,6 +1676,9 @@ th.rotate>div>span {
     margin-top: 5px;
     padding-right: 0px;
   }
+  div.parallax header h2 {
+    padding-left: 3px;
+  }
   .wrapper-footer a h1 {
     margin: 48px 100px;
     text-align: center;
