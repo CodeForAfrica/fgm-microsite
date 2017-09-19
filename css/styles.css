@@ -1691,6 +1691,10 @@ th.rotate>div>span {
     margin-top: 16px;
     margin-left: 50px;
   }
+.wrapper-map p.leadmap {
+  margin: 18px 0;
+}
+
   #pad-me img {
     padding: 25px 300px;
   }
