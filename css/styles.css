@@ -1662,8 +1662,12 @@ th.rotate>div>span {
   }
 }
 @media only screen and (min-width: 680px) and (max-width: 775px) {
+  a.main-nav {
+    display: none;
+  }
+
   #parallax-window-1 {
-    margin-left: 150px;
+    margin-left: 0px;
   }
 
   .parallax-mirror {
@@ -1680,7 +1684,8 @@ th.rotate>div>span {
   }
 
   div.parallax header {
-    margin-top: 165px;
+    margin-top: 16px;
+    margin-left: 50px;
   }
   #pad-me img {
     padding: 25px 300px;
