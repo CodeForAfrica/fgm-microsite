@@ -1632,7 +1632,7 @@ th.rotate>div>span {
   }
 
   #paint-one {
-    padding: 0px 3px 0px 20px;    
+    padding: 0px 3px 0px 20px;
   }
 
   #twitter-widget-0 {
@@ -1671,6 +1671,14 @@ th.rotate>div>span {
     width: 743px !important;
   }
 
+  #paint {
+    padding: 0px 3px 0px 20px;
+  }
+
+  #paint-one {
+    padding: 0px 3px 0px 20px;
+  }
+  
   div.parallax header {
     margin-top: 165px;
   }
