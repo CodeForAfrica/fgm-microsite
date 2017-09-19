@@ -746,13 +746,15 @@ p.note {
 }
 
 #paint {
-  padding: 20px 20px 60px 100px;
+  height:calc(100vh - 4px);
+  padding: 20px 20px 0px 50px;
   background-color: #0f6225;
   color: white;
 }
 
 #paint-one {
-  padding: 20px 20px 70px 100px;
+  height:calc(100vh - 4px);
+  padding: 20px 20px 0px 50px;
   background-color: #9b294a;
   color: white;
 }
@@ -1581,6 +1583,7 @@ th.rotate>div>span {
   height: 100%;
 }
 .maps iframe {
+  height:calc(100vh - 4px);
   pointer-events: none;
 }
 #twitter-no-scroll {
@@ -1594,7 +1597,7 @@ th.rotate>div>span {
 }
 @media only screen and (min-width: 1024px) {
   #mapboard iframe {
-    height: 690px;
+    height:calc(100vh - 4px);
   }
 }
 @media only screen and (min-width: 776px) and (max-width: 990px) {
@@ -1612,12 +1615,16 @@ th.rotate>div>span {
   }
 
   #mapboard {
-    padding: 50px 100px 179px 20px;
+    padding: 0px 50px 0px 0px;
   }
 
   #mapsreshape {
-    padding-top: 100px;
-    margin-right: -50px;
+    padding-top: 0px;
+    position: relative;
+  }
+
+  #mapsreshape iframe {
+    height:calc(100vh - 4px);
   }
 
   #twitter-widget-0 {
