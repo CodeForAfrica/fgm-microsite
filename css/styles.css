@@ -1683,6 +1683,10 @@ th.rotate>div>span {
     padding: 0px 2px 0px 20px;
   }
 
+  .wrapper-map p.leadmap {
+    margin: 20px 0;
+  }
+
   div.parallax header {
     margin-top: 16px;
     margin-left: 50px;
