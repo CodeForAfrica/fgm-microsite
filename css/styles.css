@@ -1615,7 +1615,7 @@ th.rotate>div>span {
   }
 
   #mapboard {
-    padding: 0px 50px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
 
   #mapsreshape {
@@ -1625,6 +1625,14 @@ th.rotate>div>span {
 
   #mapsreshape iframe {
     height:calc(100vh - 4px);
+  }
+
+  #paint {
+    padding: 0px 3px 0px 20px;
+  }
+
+  #paint-one {
+    padding: 0px 3px 0px 20px;    
   }
 
   #twitter-widget-0 {
