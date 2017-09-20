@@ -1603,6 +1603,21 @@ th.rotate>div>span {
     height:calc(100vh - 4px);
   }
 }
+
+@media only screen and (min-width: 1051px) and (max-width: 1110px) {
+  a.main-nav {
+    font-size: .8em;
+    padding: 9px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1050px) {
+  a.main-nav {
+    font-size: .8em;
+    padding: 5px;
+  }
+}
+
 @media only screen and (min-width: 776px) and (max-width: 990px) {
   a.main-nav {
     display: none;
