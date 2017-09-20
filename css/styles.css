@@ -1594,6 +1594,9 @@ th.rotate>div>span {
   #pad-getme {
     padding-left: 45px;
   }
+  .wrapper-map p.leadmaphead {
+    margin: 15px 0;
+  }
 }
 @media only screen and (min-width: 1024px) {
   #mapboard iframe {
@@ -1635,6 +1638,10 @@ th.rotate>div>span {
     padding: 0px 2px 0px 20px;
   }
 
+  .wrapper-map p.leadmap {
+    margin: 20px 0;
+  }
+
   #twitter-widget-0 {
     height: 240px !important;
   }
@@ -1666,6 +1673,10 @@ th.rotate>div>span {
     display: none;
   }
 
+  div.parallax header h2 {
+    padding-left: 4px;
+  }
+
   #parallax-window-1 {
     margin-left: 0px;
   }
@@ -1684,16 +1695,13 @@ th.rotate>div>span {
   }
 
   .wrapper-map p.leadmap {
-    margin: 20px 0;
+    margin: 20px 0 !important;
   }
 
   div.parallax header {
     margin-top: 16px;
     margin-left: 50px;
   }
-.wrapper-map p.leadmap {
-  margin: 18px 0;
-}
 
   #pad-me img {
     padding: 25px 300px;
