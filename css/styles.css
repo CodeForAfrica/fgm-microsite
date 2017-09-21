@@ -1615,6 +1615,14 @@ th.rotate>div>span {
     height: 200px !important;
   }
 }
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .wrapper h1 {
+    font-size: 1.6em;
+    line-height: 30px;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   #mapboard iframe {
     height:calc(100vh - 4px);
