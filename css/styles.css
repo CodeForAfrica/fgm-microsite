@@ -141,6 +141,9 @@ a.button.button-circle {
 a.button.button-circlex {
   color: #fff;
   line-height: 25px !important;
+  margin-left: auto;
+  top: 50%;
+  left: 35%;
 }
 
 .unknown {
@@ -170,7 +173,9 @@ a.button.button-circlex {
   background-color: #eee;
   border-bottom: 1px solid #ccc;
   font-size: 1.1em;
-  text-align: center
+  text-align: center;
+  display: none;
+  visibility: hidden;
 }
 
 .site-nav h6 {
@@ -299,14 +304,14 @@ video {
   filter: grayscale(50%);
   margin-top: 5px;
   margin-bottom: 20px;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.75);
+  /*box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.75);*/
   transition: all 1s;
 }
 
 #quote-container img:hover, .top-story img:hover, .more-top img:hover {
   filter: grayscale(0%);
   margin-bottom: 20px;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.75);
+  /*box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.75);*/
 }
 
 .video-container {
@@ -768,7 +773,7 @@ p.note {
 
 #mapboard {
   padding: 0px 0px 0px 0px;
-  background-color: #ede8da;
+  background-color: #fff;
 }
 
 #img-circle {
@@ -1181,7 +1186,7 @@ h2.explainer-headline {
 }
 #mapping-the-threat .row {
   margin-right: 0px !important;
-  background-color: #ede8da;
+  background-color: #fff;
 }
 #mapping-the-threat p.lead {
   color: #222;
@@ -1605,6 +1610,11 @@ th.rotate>div>span {
     margin: 15px 0;
   }
 }
+@media only screen and (min-width: 1000px) and (max-width: 2000px) {
+  #quote-container img, .top-story img, .more-top img {
+    height: 200px !important;
+  }
+}
 @media only screen and (min-width: 1024px) {
   #mapboard iframe {
     height:calc(100vh - 4px);
@@ -1625,6 +1635,13 @@ th.rotate>div>span {
   }
 }
 
+@media only screen and (min-width: 770px) and (max-width: 990px) {
+
+  a.button.button-circlex {
+    left: 20% !important;
+  }
+
+}
 @media only screen and (min-width: 776px) and (max-width: 990px) {
   a.main-nav {
     display: none;
@@ -1636,7 +1653,7 @@ th.rotate>div>span {
   }
 
   #mapping-the-threat .row {
-    background-color: #ede8da;
+    background-color: #fff;
   }
 
   #mapboard {
@@ -1729,6 +1746,15 @@ th.rotate>div>span {
     padding: 25px 300px;
   }
 }
+@media only screen and (min-width: 320px) and (max-width: 764px) {
+
+  a.button.button-circlex {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
 @media only screen and (min-width: 480px) and (max-width: 679px) {
   #parallax-window-1 {
     margin-left: 0px;
