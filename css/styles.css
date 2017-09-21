@@ -1650,6 +1650,7 @@ th.rotate>div>span {
   }
 
 }
+
 @media only screen and (min-width: 776px) and (max-width: 990px) {
   a.main-nav {
     display: none;
@@ -1715,6 +1716,7 @@ th.rotate>div>span {
     padding: 7px;
   }
 }
+
 @media only screen and (min-width: 680px) and (max-width: 775px) {
   a.main-nav {
     display: none;
@@ -1754,6 +1756,7 @@ th.rotate>div>span {
     padding: 25px 300px;
   }
 }
+
 @media only screen and (min-width: 320px) and (max-width: 764px) {
 
   a.button.button-circlex {
@@ -1761,7 +1764,6 @@ th.rotate>div>span {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
 
 @media only screen and (min-width: 480px) and (max-width: 679px) {
   #parallax-window-1 {
@@ -1779,6 +1781,9 @@ th.rotate>div>span {
   div.parallax header h2 {
     padding-left: 3px;
   }
+  .wrapper a h1 {
+    margin: 28px 80px;
+  }
   .wrapper-footer a h1 {
     margin: 48px 100px;
     text-align: center;
@@ -1792,6 +1797,7 @@ th.rotate>div>span {
     visibility: hidden;
   }
 }
+
 @media only screen and (min-width: 360px) and (max-width: 479px) {
   .share-options {
     display: none;
@@ -1852,6 +1858,7 @@ th.rotate>div>span {
     visibility: hidden;
   }
 }
+
 @media only screen and (min-width: 360px) and (max-width: 428px) {
   .parallax-mirror {
     left: 0px !important;
