@@ -1610,6 +1610,7 @@ th.rotate>div>span {
     margin: 15px 0;
   }
 }
+
 @media only screen and (min-width: 1000px) and (max-width: 2000px) {
   #quote-container img, .top-story img, .more-top img {
     height: 200px !important;
