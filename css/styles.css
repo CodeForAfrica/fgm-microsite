@@ -484,11 +484,12 @@ h3 {
   border-bottom-right-radius: 2px;
 }
 .minifeed-header {
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #604043;
-  font-size: 1.7em;
-  font-weight: 400;
+  font-size: 1em;
+  font-weight: 500;
   margin-bottom: -5px;
+  text-transform: none !important;
 }
 
 .justabit {
@@ -687,7 +688,8 @@ button {
 p.note {
   font-size: .9em;
   color: #604043;
-  margin-bottom: 20px;
+  margin: 15px 0;
+  text-align: center;
 }
 
 .main-header {
@@ -867,7 +869,7 @@ p.note {
 
 .wrapper-footer a h1 {
   font-weight: 100;
-  font-size: 13px;
+  font-size: 17px;
   color: #eeeadb;
   line-height: 20px;
   margin: 48px 0;
