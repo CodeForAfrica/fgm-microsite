@@ -1631,7 +1631,13 @@ th.rotate>div>span {
 
 @media only screen and (min-width: 1024px) {
   #mapboard iframe {
-    height:calc(100vh - 4px);
+    height:calc(100vh - 150px);
+  }
+  #paint {
+    height: calc(100vh - 150px);
+  }
+  #paint-one {
+    height: calc(100vh - 150px);
   }
 }
 
@@ -1639,6 +1645,18 @@ th.rotate>div>span {
   a.main-nav {
     font-size: .8em;
     padding: 9px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1023px) {
+  #mapboard iframe {
+    height:calc(100vh - 100px);
+  }
+  #paint {
+    height: calc(100vh - 100px);
+  }
+  #paint-one {
+    height: calc(100vh - 100px);
   }
 }
 
@@ -1681,15 +1699,17 @@ th.rotate>div>span {
   }
 
   #mapsreshape iframe {
-    height:calc(100vh - 4px);
+    height:calc(100vh - 100px);
   }
 
   #paint {
     padding: 0px 2px 0px 20px;
+    height: calc(100vh - 100px);
   }
 
   #paint-one {
     padding: 0px 2px 0px 20px;
+    height: calc(100vh - 100px);
   }
 
   .wrapper-map p.leadmap {
