@@ -1616,6 +1616,31 @@ th.rotate>div>span {
   }
 }
 
+@media only screen and (min-width: 2560px) {
+  #mapboard iframe {
+    height:calc(100vh - 1200px)!important;
+  }
+  #paint {
+    height: calc(100vh - 1200px)!important;
+  }
+  #paint-one {
+    height: calc(100vh - 1200px)!important;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 2559px){
+  #mapboard iframe {
+    height:calc(100vh - 300px)!important;
+  }
+  #paint {
+    height: calc(100vh - 300px)!important;
+  }
+  #paint-one {
+    height: calc(100vh - 300px)!important;
+  }
+}
+
+
 @media only screen and (min-width: 1000px) and (max-width: 2000px) {
   #quote-container img, .top-story img, .more-top img {
     height: 200px !important;
@@ -1629,15 +1654,15 @@ th.rotate>div>span {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
   #mapboard iframe {
-    height:calc(100vh - 150px);
+    height:calc(100vh - 150px)!important;
   }
   #paint {
-    height: calc(100vh - 150px);
+    height: calc(100vh - 150px)!important;
   }
   #paint-one {
-    height: calc(100vh - 150px);
+    height: calc(100vh - 150px)!important;
   }
 }
 
@@ -1650,13 +1675,13 @@ th.rotate>div>span {
 
 @media only screen and (min-width: 991px) and (max-width: 1023px) {
   #mapboard iframe {
-    height:calc(100vh - 100px);
+    height:calc(100vh - 100px) !important;
   }
   #paint {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 100px)!important;
   }
   #paint-one {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 100px)!important;
   }
 }
 
