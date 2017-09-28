@@ -73,12 +73,15 @@ function template_2(item) {
         <a>${item["Author Name"]}</a>
       </h1>
       <span class="pubdate">${item["Media"]}</span></br>
-      <span class="pubdate">${item["Twitter"]}</span>
+      <span class="pubdate">
+      	<a href="${item["Twitter"]}">${item["Twitter"]}</a>
+      </span>
       <p class="lead-video">${item.Bio}</p>
     </div>
   </div>
   `;
 }
+
 /* Loading Next
   "https://spreadsheet.glitch.me/?key=14UwvMiLf5S-IYjdiFCXk42i6Ve3Cwy-2i0Tc8G6YAFQ",
   data => {
